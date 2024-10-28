@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Sidebar untuk navigasi
-st.sidebar.title("Navigation")
+st.sidebar.title("Navigation1")
 option = st.sidebar.radio("Go to", ["Home", "Add New Face", "Take Attendance", "Show Attendance"])
 
 if option == "Home":
